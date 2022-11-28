@@ -1,0 +1,74 @@
+
+body{
+  text-align:center;
+  margin:0;
+}
+
+#hero{
+  Width:592px;
+  Height:579px;
+  margin: 0px auto 72px;
+
+}
+
+#hero img{
+  margin-bottom:72px;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+
+  margin-bottom:32px;
+  
+}
+
+h1 span{
+  font-weight: 700;
+}
+
+#hero p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.line{
+
+Width:568px;
+height: 0;
+border: 1px solid #ECEFF2;
+
+margin: 0 auto 8px;
+}
+
+#footer {
+  line-height: 28px;
+  font-size: 14px;
+
+  margin-bottom: 33px;
+}
+
+a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a, span{
+  color: #FF9900;
+}
+
+/* No footer pegue um A que anterior a ele tenha um A. Seria a leitura de  a + a  */
+#footer a + a {
+margin-left:28px;
+}
+
+#balls{
+  position:fixed;
+  bottom:0px;
+  right:0px;
+}
+
